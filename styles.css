@@ -586,12 +586,42 @@ body {
     margin-top: 0.5rem;
 }
 
+.after-detail {
+    margin-top: 1rem;
+    color: var(--text-dark);
+    font-style: italic;
+}
+
+.testimonial-message {
+    background: rgba(16, 185, 129, 0.05);
+    border-left: 4px solid var(--success-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.testimonial-quote {
+    color: var(--text-dark);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.testimonial-quote:last-child {
+    margin-bottom: 0;
+}
+
 .testimonial-conclusion {
     text-align: center;
     color: var(--text-dark);
     font-size: 1.125rem;
     line-height: 1.7;
     font-style: italic;
+    background: rgba(245, 101, 101, 0.05);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
 }
 
 /* 製品特長セクション */
